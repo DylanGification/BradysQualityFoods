@@ -22,7 +22,7 @@ body {
 }
 
 li.active {
-  background-color: red;
+    background-color: red;
 }
 
 .harambe {
@@ -42,6 +42,13 @@ li.active {
     transition: all 3s ease-in-out;
 }
 
+.homepage-img {
+    width: 150px;
+    height: 150px;
+    position: relative;
+    left: 25%;
+}
+
 a.navbar-brand {
     padding-right: 15px !important;
 }
@@ -52,9 +59,9 @@ footer {
 
 @media(min-width:768px) {
     body {
-        padding-top: 100px; /* Required padding for .navbar-fixed-top. Change if height of navigation changes. */
+        padding-top: 100px;
+        /* Required padding for .navbar-fixed-top. Change if height of navigation changes. */
     }
-
     .navbar-fixed-top .navbar-brand {
         padding: 15px 0;
     }
